@@ -8,6 +8,8 @@
 }
 
 .chatContainer{
+    position: relative;
+    bottom: 50px;
     background-color: white;
     height: 60%;
     width: 50%;
@@ -46,8 +48,8 @@
 }
 
 .inputBox{
-    
-    height: 15%;
+    background-color: white;
+    height: 45%;
     box-sizing: border-box;
     display: flex;
 }
@@ -64,6 +66,8 @@
     font-size: 1.2vmax;
     border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
 }
+
+
 
 
 .sendBtn{
